@@ -14,7 +14,6 @@ import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
-
 @Entity
 @Table(name = "tb_product")
 public class Product implements Serializable{
